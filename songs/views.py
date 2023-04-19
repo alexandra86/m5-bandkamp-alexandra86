@@ -10,7 +10,6 @@ class SongView(ListCreateAPIView):
     authentication_classes = [JWTAuthentication]
     permission_classes = [IsAuthenticatedOrReadOnly]
 
-    queryset = Song.objects.all()
     serializer_class = SongSerializer
     lookup_url_kwarg = "album_id"
 
