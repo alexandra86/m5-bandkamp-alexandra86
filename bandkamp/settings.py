@@ -32,12 +32,11 @@ SECRET_KEY = os.getenv("SECRET_KEY", get_random_secret_key())
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["bandkamp-alexandra86-production.up.railway.app", "0.0.0.0"]
+ALLOWED_HOSTS = []
 
-RAILWAY_STATIC_URL = os.getenv("RAILWAY_STATIC_URL")
-
-if RAILWAY_STATIC_URL:
-    ALLOWED_HOSTS += [RAILWAY_STATIC_URL, "0.0.0.0"]
+RENDER_EXTERNAL_HOSTNAME = os.getenv("RENDER_EXTERNAL_HOSTNAME")
+if RENDER_EXTERNAL_HOSTNAME:
+    ALLOWED_HOSTS += [RENDER_EXTERNAL_HOSTNAME, "0.0.0.0"]
 
 
 # Application definition
