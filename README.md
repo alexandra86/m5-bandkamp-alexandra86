@@ -1,4 +1,17 @@
-# M5 - BandKamp Generic View
+<h1 align="center" font-family="pattaya">bandKamp</h1><br>
+
+<h2 font-family="pattaya">Tecnologias utilizadas</h2>
+<div style="display: inline_block"><br>
+ <img align="center" alt="Alexandra-python" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
+ <img align="center" alt="Alexandra-postgreSQL" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"> 
+</div><br>
+
+<h2 font-family="pattaya">Descrição</h2><br>
+<p font-family="robotto" font-size="16px" line-height="34px" align="justify">
+O projeto representa uma aplicação que simula registros de álbuns e canções de bandas autônomas, para divulgação de seus trabalhos musicais.
+</p><br>
+
+<h2 font-family="pattaya">Requisitos técnicos:</h2><br>
 
 ## Instalação dos pacotes de teste
 
@@ -71,4 +84,24 @@ pytest --testdox -vvs tests/albums/
 - Rodando testes de songs:
 ```python
 pytest --testdox -vvs tests/songs/
-```
+````
+
+<h2 font-family="pattaya">Principais libs utilizadas</h2><br>
+<ul style="display: inline_block">
+<li font-family="robotto" font-size="16px">dj-database-url</li>
+<li font-family="robotto" font-size="16px">Django</li>
+<li font-family="robotto" font-size="16px">djangorestframework</li>
+<li font-family="robotto" font-size="16px">djangorestframework-simplejwt</li>
+<li font-family="robotto" font-size="16px">drf-spectacular</li>
+<li font-family="robotto" font-size="16px">gunicorn</li>
+<li font-family="robotto" font-size="16px">psycopg2-binary</li>
+<li font-family="robotto" font-size="16px">python-dotenv</li>
+<li font-family="robotto" font-size="16px">'whitenoise[brotli]'</li>
+</ul><br>
+
+<h2 font-family="pattaya">Documentação</h2><br>
+<p font-family="robotto" font-size="16px" line-height="34px" align="justify">
+A documentação contendo todas as rotas da aplicação pode ser conferida <a href="https://web-production-36aae.up.railway.app/api/docs/" font-family="robotto" font-size="16px">aqui</a>.
+</p><br>
+
+
