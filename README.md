@@ -1,4 +1,4 @@
-<h1 align="center" font-family="pattaya">bandKamp</h1><br>
+<h1 align="center" font-family="pattaya">BandKamp</h1><br>
 
 <h2 font-family="pattaya">Tecnologias utilizadas</h2>
 <div style="display: inline_block"><br>
